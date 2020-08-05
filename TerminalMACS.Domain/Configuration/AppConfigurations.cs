@@ -3,7 +3,7 @@ using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Text;
-using TerminalMACS.Extensions;
+using TerminalMACS.Util.Extensions;
 
 namespace TerminalMACS.Domain.Configuration
 {

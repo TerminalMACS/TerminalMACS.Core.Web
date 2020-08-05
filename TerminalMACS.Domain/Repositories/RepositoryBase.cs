@@ -5,7 +5,6 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using TerminalMACS.Domain.Entitys;
-using TerminalMACS.Extensions;
 
 namespace TerminalMACS.Domain.Repositories
 {
