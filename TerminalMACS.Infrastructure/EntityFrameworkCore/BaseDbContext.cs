@@ -47,10 +47,6 @@ namespace TerminalMACS.Infrastructure.EntityFrameworkCore
                     optionsBuilder.UseSqlServer(ConnectionString); break;
                 case DatabaseType.MySql:
                     optionsBuilder.UseMySql(ConnectionString); break;
-                case DatabaseType.Oracle:
-                    optionsBuilder.UseOracle(ConnectionString); break;
-                case DatabaseType.PostgreSql:
-                    optionsBuilder.UseNpgsql(ConnectionString); break;
                 default: throw new Exception("暂不支持该数据库！");
             }
 
